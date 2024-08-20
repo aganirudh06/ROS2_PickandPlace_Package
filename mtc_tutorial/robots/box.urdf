@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<robot name="simple_robot">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="1 1 1"/>
+      </geometry>
+      <material name="GazeboBlue"/>
+    </visual>
+    <collision>
+      <geometery>
+        <box size="1 1 1"/>
+      </geometery>
+    </collision>
+  </link>
+  
+  </robot>
