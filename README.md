@@ -36,7 +36,14 @@ The ROS2 package is ready to use and the launch files can be used to run te Pick
 
 ## Launching the simulation
 
-Firstly, launch the rviz simulation with the Panda robot arm
+Firstly, source the setup script of the wokspace in the Terminal tab you are going to run the launch files from and the setup script of ROS to run ROS package
+
+```
+source ~/ws_moveit/install/setup.bash
+source /opt/ros/humble/setup.bash
+```
+
+Launch the rviz simulation with the Panda robot arm
 ```
 ros2 launch moveit2_tutorials mtc_demo.launch.py
 ```
